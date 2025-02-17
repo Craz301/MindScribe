@@ -55,7 +55,6 @@ const Slider = () => {
           <p>{card.content}</p>
         </div>
       ))}
-
     
     </div>
     </>
