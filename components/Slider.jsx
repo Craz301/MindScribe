@@ -44,10 +44,11 @@ const Slider = () => {
         <div
           key={index}
           className={`w-full h-64 flex flex-col justify-center items-center ${card.bgColor} shadow-md transform transition-transform duration-500 rounded-lg p-4 ${
-            index === 0 ? 'mb-[350px]' :
-            index === 1 ? 'mb-[150px]' :
-            index === 3 ? 'mb-[150px]' :
-            index === 4 ? 'mb-[350px]' :
+            index === 0 ? 'mb-[50px]' :
+            index === 1 ? 'mb-[50px]' :
+            index === 2 ? 'mb-[50px]' :
+            index === 3 ? 'mb-[50px]' :
+            index === 4 ? 'mb-[50px]' :
             ''
           }`}
         >
